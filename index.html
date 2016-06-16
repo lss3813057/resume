@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>前端简历</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/jquery.fullpage.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/resLoader.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.fullpage.min.js"></script>
+	<script src="js/index.js"></script>
+</head>
+
+<body>
+	<div class="preloadPage">
+		
+		<div class="ploadMain">
+			<div class="ploadInfo">页面疯狂加载中...</div>
+			<div class="ploadLine">
+				<i></i>
+			</div>
+		</div>
+	</div>
+	
+	<ul id="menu">
+		<li data-menuanchor="page1" class="active"><a href="#page1"><span>首页</span></a></li>
+		<li data-menuanchor="page2"><a href="#page2"><span>职业技能</span></a></li>
+		<li data-menuanchor="page3"><a href="#page3"><span>个人履历</span></a></li>
+		<li data-menuanchor="page4"><a href="#page4"><span>作品展示</span></a></li>
+		<li data-menuanchor="page5"><a href="#page5"><span>联系我</span></a></li>
+	</ul>
+
+	<div id="fullpage">	
+
+	    <div class="section section1">
+	    	<div id="mainHeader">
+				<div class="hdLeft">
+					<div class="hdicon">
+						<img src="images/hdicon.png" alt="hdicon.png">
+					</div>
+					<div class="hdinfo">
+						<div class="hdinfo-top">前端工程师</div>
+						<div class="hdinfo-bot">个人简历</div>
+					</div>
+				</div>
+				<div class="hdRight">
+					<ul>
+						<li><a href="#page1">首页</a></li>
+						<li><a href="#page2">职业技能</a></li>
+						<li><a href="#page3">个人履历</a></li>
+						<li><a href="#page4">作品展示</a></li>
+						<li><a href="#page5">联系我</a></li>
+					</ul>
+					<div class="tit-line"></div>
+				</div>
+	    	</div>
+	        <div id="top-mainBg" class="moveDiv" >
+				<div class="img_blue draw show3D" data-mouse-move="0.1" data-newnew="1"> </div>
+				<div class="img_red draw show3D" data-mouse-move="0.2"> </div>
+				<div class="img_linteblue draw show3D" data-mouse-move="0.4"> </div>
+				<div class="img_lintered draw show3D" data-mouse-move="0.8"> </div>
+				<div class="img_yellow draw show3D" data-mouse-move="1.2"> </div>
+				<div class="draw img_person show3D" data-mouse-move="0.05"></div>
+				<div class="skills draw show3D" data-mouse-move="1.3"> </div>
+				<div class="dots_far draw show3D" data-mouse-move="1.5"> </div>
+				<div class="dots_close draw show3D" data-mouse-move="2"> </div>
+			</div> 
+	    </div>
+
+
+	    <div class="section section2">
+	        <div class="bg">
+				<img src="images/jn.jpg" alt="jn.jpg">
+	        </div>
+	        <div class="bg-jn2"></div>
+	        <h3>职业技能</h3>
+	        <div class="middle">
+	        	<div class="left2">
+					<div class="left2-1"></div>
+					<div class="left2-2"></div>
+	        	</div>
+	        	<div class="right2">
+					<div class="qdjn info">
+						<h5>前端技能：</h5>
+						<ul>
+							<li>1. 精通JavaScript、CSS、HTML、XML、JSON、Ajax等进行Web标准开发</li>
+							<li>2. 精通jQuery、AngularJS框架，快速进行前端开发。</li>
+							<li>3. 精通HTML5、CSS3,能够熟练使用Bootstrap、Less进行前端开发。</li>
+							<li>4. 熟悉JAVA 、PHP语言，能读懂并进行简单修改。</li>
+							<li> 5. 了解前端安全的知识，能够简单测试并解决漏洞并利用现有平台布置防御措施。</li>
+							<li>6. 熟悉SVN 、Git 软件进行合作开发。</li>
+						</ul>
+					</div>
+					<div class="qtjn info">
+						<h5>相关技能：</h5>
+						<ul>
+							<li>1. 熟悉域名的解析、检测、部署的各种方案</li>
+							<li>2. 熟练使用Linux CentOS系统对网站进配置、维护、检测</li>
+							<li>3. 熟悉局域网环境，能够快速排查解决各种问题</li>
+						</ul>
+					</div>
+	        	</div>
+	        </div>
+	    </div>
+
+
+	    <div class="section section3">
+	        <div class="bg">
+				<img src="images/llbg.jpg" alt="llbg.jpg">
+	        </div>
+	        <div class="bg3 bg31"></div>
+	        <div class="bg3 bg32"></div>
+	        <div class="bg3 bg33"></div>
+	        <h3>个人履历</h3>
+	        <div class="leftInfo">
+				<div class="shuxian"></div>
+				<div class="xiexian xie1"></div>
+				<div class="xiexian xie2"></div>
+				<div class="po-info">
+					<div class="llTime llTime1 ">2013.1 ~ 2013.6</div>
+					<div class="llInfo1 ">
+						<h6>大连东软集团 - 实习java程序员</h6>
+						<div class="intro">使用Java、Oracle进行JavaSE开发，顺利完成项目并通过毕业答辩。</div>
+					</div>
+					<div class="llTime llTime2">2013.7 ~ 今</div>
+					<div class="llInfo2">
+						<h6>青岛九度方舟网络科技有限公司</h6>
+						<ul class="intro">
+							<li>1.在公司担任Web前端工程师，负责表现层界面的开发，完美展示设计稿上的效果以及功能</li>
+							<li>2.根据需求选择使用JavaScript、jQuery或AngularJS 对动画、交互效果进行编程，达到兼容性好、效果平滑、消耗资源少、拒绝多余重排的要求。</li>
+							<li>3.使用DZ、织梦、ECSHOP等现有CMS进行二次开发，涉及大量插件的使用与二次开发。</li>
+							<li>4.对现有页面进行优化、升级以及兼容性测试与加强。</li>
+							<li>5.利用H5、CSS3 以及Bootstrap框架进行快速的PC端和移动端的响应式页面搭建。</li>
+							<li>6.与美工、程序以及服务器管理人员积极交流以解决各种问题造成前端显示异常问题。</li>
+						</ul>
+					</div>
+				</div>
+
+	        </div>
+	    </div>
+
+
+	    <div class="section section4">
+	        <div class="bg">
+				<img src="images/zpbg.jpg" alt="zpbg.jpg">
+	        </div>
+	        <h3>作品展示</h3>
+	        <div class="bg41"></div>
+	        <div class="bg42"></div>
+	        <div class="zpmid">
+				<ul>
+					<li>
+						<img src="images/zuopin1.jpg">
+						<a href="#" target="_blank">
+							<div class="zp-info-bg">
+								<span>点击打开</span>
+								<div class="zp-loading">
+									<i></i>
+									<i></i>
+								</div>
+							</div>
+						</a>
+						<p>作品说明作品说明作品说明作品说明作品说明作品说明作品说明1111</p>
+					</li>
+					<li>
+						<img src="images/zuopin1.jpg">
+						<a href="#" target="_blank">
+							<div class="zp-info-bg">
+								<span>点击打开</span>
+								<div class="zp-loading">
+									<i></i>
+									<i></i>
+								</div>
+							</div>
+						</a>
+						<p>作品说明作品说明作品说明作品说明作品说明作品说明作品说明2222</p>
+					</li>
+					<li><img src="images/zuopin1.jpg"><p>作品说明作品说明作品说明作品说明作品说明作品说明作品说明3333</p></li>
+				</ul>
+	        </div>
+	    </div>
+
+	    
+	    <div class="section section5 fp-auto-height">	        
+	        <div class="s5-mid">
+				<div class="s5-tit">
+					<div class="s5-tit-info"></div>
+					<div class="s5-tit-bg"></div>
+				</div>
+				<div class="s5-content">
+					<img src="images/head.jpg" alt="head.jpg">
+					<ul>
+						<li><i>Email</i>：317781789@qq.com</li>
+						<li><i>QQ</i>：317781789</li>
+						<li><i>电话</i>：13210001751</li>
+					</ul>
+				</div>
+	        </div>
+	    </div>
+	</div>
+</body>
+</html>
