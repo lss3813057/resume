@@ -11,30 +11,17 @@ $(function(){
         verticalCentered: false
     });   
 
-    var loader = new resLoader({
-        // resources : [
-        //     'http://p2.qhimg.com/t01ed1438874f940dc0.jpg',
-        //     'http://p9.qhimg .com/t01b4ff03b72c7dc6c7.jpg',
-        //     'http://p2.qhimg.com/t01dd90dfbec92074d0.jpg',
-        //     'http://p7.qhimg.com/t01cfec6d87cde457c5.jpg',
-        //     'http://p9.qhimg.com/t01943ced462da67833.jpg',
-        //     'http://p0.qhimg.com/t01943ced462da67833.jpg',
-        //     'http://p6.qhimg.com/t01aa15a7ba7ccb49a7.jpg',
-        //     'http://p8.qhimg.com/t010f1e8badf1134376.jpg',
-        //     'http://p8.qhimg.com/t01cf37ea915533a032.jpg',
-        //     'http://p3.qhimg.com/t0193d8a3963e1803e9.jpg',
-        //     'http://p3.qhimg.com/t01cd6a4d4b4bd4457b.jpg'
-        // ],
+    var loader = new resLoader({        
         resources : [
-            '../images/img_blue.png',
-            '../images/img_linteblue.png',
-            '../images/img_lintered.png',
-            '../images/img_person.png',
-            '../images/img_red.png',
-            '../images/img_yellow.png',
-            '../images/jn2.png',
-            '../images/dots_close.png',
-            '../images/dots_far.png'
+            '/images/img_blue.png',
+            '/images/img_linteblue.png',
+            '/images/img_lintered.png',
+            '/images/img_person.png',
+            '/images/img_red.png',
+            '/images/img_yellow.png',
+            '/images/jn2.png',
+            '/images/dots_close.png',
+            '/images/dots_far.png'
         ],
         onStart : function(total){
             //console.log('start:'+total);
@@ -54,18 +41,19 @@ $(function(){
 
     
     var aa = new loadFun();
-    aa.init(); 
+    aa.init();     
+    
 })
 
 
     function loadFun(){}
 
-    loadFun.prototype = {
+    loadFun.prototype = {        
         init:function(){
             this.headUnderline();
             this.setHeight();
             this.autoScrolling();
-            this.jqShow();
+            this.jqShow(); 
         },
         headUnderline:function(){  
             var lin=$(".hdRight ul>li").length;    
@@ -91,10 +79,16 @@ $(function(){
             });
         },
         setHeight:function(){
-            var hh=$(window).height()-70;   
-            if(hh>0){
-                $("#top-mainBg").css("height",hh);
+            function doHeight(){                      
+                var hh=$(window).height()-70;   
+                if(hh>0){
+                    $("#top-mainBg").css("height",hh);
+                }                        
             }
+            $(window).resize(function(){      
+                doHeight();                 
+            });
+            doHeight();
         },
         autoScrolling:function(){
             var $ww = $(window).width();
