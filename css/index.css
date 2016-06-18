@@ -79,6 +79,8 @@
     max-width:500px;
     transition:width ease 200ms;
     -webkit-transition:width ease 200ms;
+    -moz-transition:width ease 200ms;
+    -o-transition:width ease 200ms;
 }
 /* ------------- preloadPage end ---------------*/
 
@@ -105,6 +107,9 @@
     width:54px;
     border-radius: 50%;
     transition: box-shadow 0.5s;
+    -moz-transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+    -o-transition: box-shadow 0.5s;
 }
 .hdLeft .hdicon img:hover{
     box-shadow: 0 0 15px #FF5722;
@@ -161,6 +166,9 @@
     border-radius: 4px;
     background-color:#000;
     transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
 
 }
 .moveDiv
@@ -187,7 +195,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     text-indent: -99999px;
-    transition:all 0.1s; 
+    //transition:all 0.1s; 
 }
 .show3D{
     -webkit-transform: translate3d(0, 0, 0);
@@ -255,11 +263,17 @@
     width: 100%;
     height: 545px;
     background: url(../images/jn2.png) 50% 100% no-repeat;
-    transition: all 1s;    
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;   
 }
 .active .bg-jn2 {
     top: 0;
     transition-delay: 0.7s;
+    -webkit-transition-delay: 0.7s;
+    -moz-transition-delay: 0.7s;
+    -o-transition-delay: 0.7s;
 }
 .section h3{
     position: absolute;
@@ -272,16 +286,26 @@
     margin-top: 60px;
     text-indent: -9999px;
     background-repeat: no-repeat;
-    opacity: 0;
-    -webkit-transform: scale(0.5, 0.5);
+    opacity: 0;    
     transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
     transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
 }
 .active h3 {
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
+    opacity: 1;    
     transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
     transition-delay: 0.7s;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
 }
 .section2 h3 {
     width: 435px;
@@ -304,9 +328,15 @@
     margin:-170px 0 0 -108px;
     background:url(../images/jn-compu.png) 0 0 no-repeat;
     transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -o-transition: all 1.5s;
 } 
 .section2.active .left2{
     transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -o-transition: all 1.5s;
     left:0;
 }
 .left2-1{
@@ -318,6 +348,9 @@
     background-image: url(../images/jn-com1.png);
     opacity: 0;
     transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -o-transition: all 1.5s;
 }
 .left2-2 {
     position: absolute;
@@ -331,12 +364,18 @@
 .active .left2-1{
     opacity: 1;
     transition-delay: 1.5s;
+    -webkit-transition-delay: 1.5s;
+    -moz-transition-delay: 1.5s;
+    -o-transition-delay: 1.5s;
 }
 .active .left2-2 {
     left: 30px;
     top: 0;
     opacity: 1;
     transition: all 1s ease 2.5s;
+    -webkit-transition: all 1s ease 2.5s;
+    -moz-transition: all 1s ease 2.5s;
+    -o-transition: all 1s ease 2.5s;
 }
 .right2{
     width: 409px;
@@ -345,9 +384,15 @@
     margin: -210px 0 0 -15px;
     right: -200%;
     transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -o-transition: all 1.5s;
 }
 .active .right2{
     transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -o-transition: all 1.5s;
     right:-30px;
 }
 .info h5{
@@ -384,6 +429,9 @@
     bottom: 0;
     opacity: 0;
     transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
 }
 .bg31 {    
     width: 892px;
@@ -409,11 +457,15 @@
 .active .bg31, .active .bg32 {
     opacity: 1;
     transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
 }
 .active .bg33{
     opacity:1;    
     left:-51px;
     transition-delay:0.7s;
+    -webkit--moz--o-
 }
 .shuxian{
     position: absolute;
@@ -425,10 +477,16 @@
     background: url(../images/shuxian.png) 0 0 no-repeat;
     opacity: 0;
     transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
 }
 .active .shuxian{
     opacity:1;
     transition-delay:2s;
+    -webkit-transition-delay:2s;
+    -moz-transition-delay:2s;
+    -o-transition-delay:2s;
 }
 .xiexian{
     position: absolute;
@@ -438,6 +496,9 @@
     height:82px;
     background:url(../images/xiexian.png) 0 0 no-repeat;
     transition:all 1s;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
     opacity: 0;
 }
 .xie1{
@@ -448,11 +509,17 @@
 }
 .active .xie1{
     opacity:1;
-    transition-delay:2s;    
+    transition-delay:2s; 
+    -webkit-transition-delay:2s;
+    -moz-transition-delay:2s;
+    -o-transition-delay:2s;  
 }
 .active .xie2{
     opacity:1;
-    transition-delay:4.5s;    
+    transition-delay:4.5s; 
+    -webkit-transition-delay:4.5s;
+    -moz-transition-delay:4.5s;
+    -o-transition-delay:4.5s;   
 }
 .po-info{
     position: absolute;
@@ -471,6 +538,9 @@
     width: 270px;
     opacity:0;
     transition:all 1.3s;
+    -webkit-transition:all 1.3s;
+    -moz-transition:all 1.3s;
+    -o-transition:all 1.3s;
 }
 .llTime1{    
     top: 26px;    
@@ -479,14 +549,23 @@
     opacity:1;
     left:0;
     transition-delay:2s;
+    -webkit-transition-delay:2s;
+    -moz-transition-delay:2s;
+    -o-transition-delay:2s;
 }
 .llInfo1{
     opacity:0;
     transition:all 1s;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
 }
 .active .llInfo1{
     opacity:1;
     transition-delay:3.5s;
+    -webkit-transition-delay:3.5s;
+    -moz-transition-delay:3.5s;
+    -o-transition-delay:3.5s;
 }
 .llInfo1 h6{
     margin: 77px 0 10px 0;
@@ -502,14 +581,23 @@
     opacity:1;
     left:0;
     transition-delay:4.5s;
+    -webkit-transition-delay:4.5s;
+    -moz-transition-delay:4.5s;
+    -o-transition-delay:4.5s;
 }
 .llInfo2{
     opacity:0;
     transition:all 1.3s;
+    -webkit-transition:all 1.3s;
+    -moz-transition:all 1.3s;
+    -o-transition:all 1.3s;
 }
 .active .llInfo2{
     opacity:1;
     transition-delay:6s;
+    -webkit-transition-delay:6s;
+    -moz-transition-delay:6s;
+    -o-transition-delay:6s;
 }
 .llInfo2 h6{
     margin: 84px 0 10px 0;
@@ -551,10 +639,16 @@
     color: #666;
     opacity:0;
     transition:all 1s;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
 }
 .active .zpmid li p{
     opacity:1;
     transition-delay:4s;
+    -webkit-transition-delay:4s;
+    -moz-transition-delay:4s;
+    -o-transition-delay:4s;
 }
 .section4 li{   
     float:left;
@@ -600,6 +694,39 @@
         transform:rotate(360deg) scale(1);
     }
 }
+@-moz-keyframes zp-loading{
+    0%{
+        transform:rotate(0deg) scale(1);
+    }
+    50%{
+        transform:rotate(180deg) scale(0.6);
+    }
+    100%{
+        transform:rotate(360deg) scale(1);
+    }
+}
+@-webkit-keyframes zp-loading{
+    0%{
+        transform:rotate(0deg) scale(1);
+    }
+    50%{
+        transform:rotate(180deg) scale(0.6);
+    }
+    100%{
+        transform:rotate(360deg) scale(1);
+    }
+}
+@-o-keyframes zp-loading{
+    0%{
+        transform:rotate(0deg) scale(1);
+    }
+    50%{
+        transform:rotate(180deg) scale(0.6);
+    }
+    100%{
+        transform:rotate(360deg) scale(1);
+    }
+}
 
 .zp-loading{
     width:40px;
@@ -624,6 +751,9 @@
     top:0;
     left:0;
     animation:zp-loading 1s ease-in-out 0s infinite;
+    -webkit-animation:zp-loading 1s ease-in-out 0s infinite;
+    -moz-animation:zp-loading 1s ease-in-out 0s infinite;
+    -o-animation:zp-loading 1s ease-in-out 0s infinite;
 }
 .zp-loading i:last-child{
     width:15px;
@@ -631,6 +761,9 @@
     top:10px;
     left:10px;
     animation:zp-loading 1s ease-in-out 0.5s infinite reverse;
+    -webkit-animation:zp-loading 1s ease-in-out 0.5s infinite reverse;
+    -moz-animation:zp-loading 1s ease-in-out 0.5s infinite reverse;
+    -o-animation:zp-loading 1s ease-in-out 0.5s infinite reverse;
 }
 .bg41 {
     position: absolute;
@@ -639,10 +772,16 @@
     height: 248px;
     background: url(../images/bg41.png) 50% 0 no-repeat;
     transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
 }
 .active .bg41{
     bottom:8%;
     transition-delay:0.9s;
+    -webkit-transition-delay:0.9s;
+    -moz-transition-delay:0.9s;
+    -o-transition-delay:0.9s;
 }
 .bg42 {
     position: absolute;
@@ -651,12 +790,32 @@
     height: 372px;
     background: url(../images/bg42.png) 50% 0 no-repeat;
     transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
 }
 .active .bg42{
     bottom:8%;
     transition-delay:0.7s;
+    -webkit-transition-delay:0.7s;
+    -moz-transition-delay:0.7s;
+    -o-transition-delay:0.7s;
 }
 @-webkit-keyframes moves4-1{
+    0%{ transform:translate(360px,-1000px)}
+    20%{transform:translate(360px,30px)}
+    40%{transform:translate(360px,-70px)}
+    60%{transform:translate(360px,0px)}
+    100%{transform:translate(0,0px)}
+}
+@-moz-keyframes moves4-1{
+    0%{ transform:translate(360px,-1000px)}
+    20%{transform:translate(360px,30px)}
+    40%{transform:translate(360px,-70px)}
+    60%{transform:translate(360px,0px)}
+    100%{transform:translate(0,0px)}
+}
+@-o-keyframes moves4-1{
     0%{ transform:translate(360px,-1000px)}
     20%{transform:translate(360px,30px)}
     40%{transform:translate(360px,-70px)}
@@ -677,6 +836,20 @@
     60%{transform:translate(0px,0px)}
     100%{transform:translate(0,0px)}
 }
+@-moz-keyframes moves4-2{
+    0%{ transform:translate(0px,-1000px)}
+    20%{transform:translate(0px,30px)}
+    40%{transform:translate(0px,-70px)}
+    60%{transform:translate(0px,0px)}
+    100%{transform:translate(0,0px)}
+}
+@-o-keyframes moves4-2{
+    0%{ transform:translate(0px,-1000px)}
+    20%{transform:translate(0px,30px)}
+    40%{transform:translate(0px,-70px)}
+    60%{transform:translate(0px,0px)}
+    100%{transform:translate(0,0px)}
+}
 @keyframes moves4-2{
     0%{ transform:translate(0px,-1000px)}
     20%{transform:translate(0px,30px)}
@@ -685,6 +858,20 @@
     100%{transform:translate(0,0px)}
 }
 @-webkit-keyframes moves4-3{
+    0%{ transform:translate(-360px,-1000px)}
+    20%{transform:translate(-360px,30px)}
+    40%{transform:translate(-360px,-70px)}
+    60%{transform:translate(-360px,0px)}
+    100%{transform:translate(0,0px)}
+}
+@-moz-keyframes moves4-3{
+    0%{ transform:translate(-360px,-1000px)}
+    20%{transform:translate(-360px,30px)}
+    40%{transform:translate(-360px,-70px)}
+    60%{transform:translate(-360px,0px)}
+    100%{transform:translate(0,0px)}
+}
+@-o-keyframes moves4-3{
     0%{ transform:translate(-360px,-1000px)}
     20%{transform:translate(-360px,30px)}
     40%{transform:translate(-360px,-70px)}
@@ -704,7 +891,8 @@
 .active.section4 .zpmid li:nth-child(1){
     animation:moves4-1 2s ease-in-out 2s forwards; 
     -webkit-animation:moves4-1 2s ease-in-out 2s forwards;
-    -moz-animation:moves4-1 2s ease-in-out 2s forwards;      
+    -moz-animation:moves4-1 2s ease-in-out 2s forwards;
+    -o-animation:moves4-1 2s ease-in-out 2s forwards;      
 }
 .section4 .zpmid li:nth-child(2){
     transform:translate(0px,-1000px);
@@ -712,7 +900,8 @@
 .active.section4 .zpmid li:nth-child(2){
     animation:moves4-2 2s ease-in-out 2s forwards;
     -webkit-animation:moves4-2 2s ease-in-out 2s forwards;
-    -moz-animation:moves4-2 2s ease-in-out 2s forwards;   
+    -moz-animation:moves4-2 2s ease-in-out 2s forwards;
+    -o-animation:moves4-2 2s ease-in-out 2s forwards;    
 }
 .section4 .zpmid li:nth-child(3){
     transform:translate(-360px,-1000px);
@@ -720,7 +909,8 @@
 .active.section4 .zpmid li:nth-child(3){
     animation:moves4-3 2s ease-in-out 2s forwards;
     -webkit-animation:moves4-3 2s ease-in-out 2s forwards;
-    -moz-animation:moves4-3 2s ease-in-out 2s forwards;   
+    -moz-animation:moves4-3 2s ease-in-out 2s forwards;
+    -o-animation:moves4-3 2s ease-in-out 2s forwards;   
 }
 
 /* ------------- section4 end --------------- */
