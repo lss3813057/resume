@@ -35,7 +35,7 @@
 #menu .active a {
     background-position: right 0;
 }
-.section { text-align: center; font: 50px "Microsoft Yahei"; overflow:hidden;}
+.section { text-align: center; font-family: "Microsoft Yahei"; overflow:hidden;}
 
 /* ------------- preloadPage start ---------------*/
 .preloadPage{
@@ -278,11 +278,11 @@
 .section h3{
     position: absolute;
     left: 50%;
-    top: 4%;
+    top: 2%;
     z-index: 10;
     width: 512px;
     height: 120px;
-    margin-left: -207px;
+    margin-left: -185px;
     margin-top: 60px;
     text-indent: -9999px;
     background-repeat: no-repeat;
@@ -311,6 +311,7 @@
     width: 435px;
     
     background-image: url(../images/zyjn.png);
+    background-size: 23em;
 }
 .middle{
     position: relative;
@@ -380,8 +381,8 @@
 .right2{
     width: 409px;
     position: absolute;
-    top: 50%;
-    margin: -210px 0 0 -15px;
+    top: 48%;
+    margin: -184px 0 0 -15px;
     right: -200%;
     transition: all 1.5s;
     -webkit-transition: all 1.5s;
@@ -396,7 +397,7 @@
     right:-30px;
 }
 .info h5{
-    font-size:18px;
+    font-size:1.125em;
     font-weight: normal;
     margin: 20px 0 0 0;
     text-align: left;
@@ -410,7 +411,7 @@
 }
 .info ul li{
     list-style: none;
-    font-size:16px;
+    font-size:1em;
     font-weight:normal;
     text-align: left;
     margin: 10px 0;
@@ -422,6 +423,7 @@
 .section3 h3 {
     width: 435px;    
     background-image: url(../images/grll.png);
+    background-size:23em;
 }
 .bg3{
     position: absolute;
@@ -534,7 +536,7 @@
 .llTime{
     position: absolute;
     left: 335px;
-    font-size: 28px;
+    font-size: 1.75em;
     width: 270px;
     opacity:0;
     transition:all 1.3s;
@@ -569,10 +571,10 @@
 }
 .llInfo1 h6{
     margin: 77px 0 10px 0;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 .llInfo1 .intro{
-    font-size:14px;
+    font-size:0.875em;
 }
 .llTime2{   
     top: 180px;    
@@ -601,10 +603,10 @@
 }
 .llInfo2 h6{
     margin: 84px 0 10px 0;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 .llInfo2 .intro{
-    font-size:14px;
+    font-size:0.875em;
     list-style:none;
     padding-left: 0;
 }
@@ -618,13 +620,14 @@
     width: 435px;
     margin-left: -188px;
     background-image: url(../images/zpzs.png);
+    background-size:23em;
 }
 .section4 .zpmid{
     position:absolute;
     left:50%;
     top:50%;
     margin-left: -562px;
-    margin-top: -180px;
+    margin-top: -160px;
     width:1040px;
 
 }

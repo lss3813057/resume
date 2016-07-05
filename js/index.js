@@ -5,6 +5,7 @@ $(function(){
         });
     $("#fullpage").fullpage({
         anchors: ['page1', 'page2', 'page3', 'page4','page5'],
+        resize:true,
         css3:false,
         easing:"easeInQuart",
         menu: '#menu',        
@@ -36,6 +37,7 @@ $(function(){
             $(".preloadPage").delay(400).fadeOut("slow");
         }
     });
+    
 
     loader.start();
 
@@ -50,6 +52,7 @@ $(function(){
 
     loadFun.prototype = {        
         init:function(){
+            $(document).resize();
             this.headUnderline();
             this.setHeight();
             this.autoScrolling();
